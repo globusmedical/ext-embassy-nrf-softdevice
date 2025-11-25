@@ -4,7 +4,7 @@ use core::ptr;
 
 use crate::ble::*;
 use crate::util::{get_union_field, OnDrop, Portal};
-use crate::{raw, RawError, Softdevice};
+use crate::{raw, RawError};
 
 struct RawAdvertisement<'a> {
     kind: u8,
